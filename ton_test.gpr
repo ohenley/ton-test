@@ -3,5 +3,6 @@ project ton_test is
     for create_missing_dirs use "true";
     for main use ("ton_test.adb");
     for source_dirs use ("src", "src/graphics");
+    for object_dir use "obj";
 
 end ton_test;
